@@ -1,0 +1,63 @@
+.signup-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #0f0f0f0f ;
+}
+
+.signup-card{
+    width: 400px;
+    min-height: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.signup-card .input-field{
+    position: relative;
+    padding: 5px;
+}
+
+.input-field .logo{
+    position: absolute;
+    left: 7%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input-field .form-control{
+    padding-left: 50px;
+}
+/* .input-field .form-control::placeholder{
+    /* padding-left: 35px; 
+} */
+
+.input-field span{
+    position: absolute;
+    top:50%;
+    right: 7%;
+    transform: translateY(-50%);
+}
+
+.signup-card .btn-primary{
+    width: 100%;
+}
+
+.signup-option{
+    margin-top: 20px;
+    width: 400px;
+    background-color: rgb(196, 243, 223);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.signup-card h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
