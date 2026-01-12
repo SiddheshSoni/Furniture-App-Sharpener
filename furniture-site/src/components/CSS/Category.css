@@ -1,0 +1,15 @@
+.product-page{
+    padding: 20px 0px;
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(109, 70, 104);
+}
+.product-page p{
+    text-align: center;
+}
+.product-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0px;
+}

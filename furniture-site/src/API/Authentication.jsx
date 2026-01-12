@@ -1,7 +1,6 @@
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 
-// console.log(API_Key);
 
 const Authentication = async (email, password, authMode) => {
     let authEndPoint = authMode ? "signUp" : "signInWithPassword";
@@ -18,7 +17,7 @@ const Authentication = async (email, password, authMode) => {
             headers: { 'Content-Type': 'application.json'},
         });
 
-        const data = res.json();
+        const data = await res.json();
 
         if(!res.ok){
             let errorMessage = "Authentication Failed!";

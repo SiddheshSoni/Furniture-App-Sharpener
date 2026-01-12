@@ -32,14 +32,18 @@ const Signup = () => {
                 return;
             }
         }
+        console.log(enteredEmail);
+        console.log(enteredPassword);
 
-        const res = await dispatch(LoginThunk(enteredEmail, enteredPassword, isSignUp));
+        const res = await dispatch(LoginThunk({ email: enteredEmail, password: enteredPassword, authMode: isSignUp }));
 
         if( !LoginThunk.rejected.match(res)){
-            setError(res.payload);
+            const user  = localStorage.getItem('user');
+            console.log("user logged in" + user);
+
+            navigate('/Home');
         }else{
-            console.log("user logged in");
-            navigate('/');
+            setError(res.payload);
         }
         
     };

@@ -1,0 +1,116 @@
+.product-display{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.product-section-left{
+    width: 40%;
+    padding: 20px; 
+    position: sticky;
+    top:0;
+}
+.product-section-left img{
+    width: 100%;    
+}
+#utilp1{
+    padding-top: 20px;
+    border-radius: 10px;
+    scale: 120%;
+    
+}
+
+#pincode{
+    border-radius: 20px;
+    border: 0.5px solid black;
+    width: 150px;
+    padding: 5px 15px;
+}
+.product-section-right{
+    width: 50%;
+    padding: 20px;
+    overflow: scroll; 
+    
+}
+.prod-title{
+    font-size: 2rem;
+    opacity: 75%;
+    font-weight: 600;
+}
+
+/* .wrapper{
+    display: flex;
+    justify-content: center;
+} */
+
+.price-card{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(245, 240, 240);
+    height: 20%;
+    border-radius: 10px;
+    padding: 20px 75px;
+    font-weight: 600;
+    /* width: 80%; */
+}.price{
+    padding: 0px 20px;
+    margin: 0px;
+    font-size: 1.7rem;
+}
+.price-card p{
+    margin: 0;
+}
+.mrp{
+    text-decoration: line-through;
+
+}
+
+
+.line1{
+    padding: 20px 20px;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 20px;
+}
+
+.line2{
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.3rem;
+}
+.buttonQty{
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    
+}.qty{
+    background-color: rgb(175, 208, 247);
+    border: none;
+    width: 50px;
+}
+
+.buttonQty span{
+    padding: 0px 20px;
+}
+
+.line3{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+
+}
+#atc{
+    width: 80%;
+    border-radius: 20px;
+    height: 50px;
+}
+.highlights{
+    display: flex;
+    font-size: 1rem;
+    gap: 10px;
+    opacity: 75%;
+}
